@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import { LANG_OPTIONS, content, t } from "@/lib/translations";
@@ -12,24 +12,24 @@ const stats = [
 
 const whyCards = [
   {
-    title: { ko: "글로벌 소싱 파워", en: "Global Sourcing Power", ja: "グローバル調達力", zh: "全球采购能力", vi: "Năng lực nguồn cung toàn cầu" },
-    body: { ko: "유럽·아시아·미주 주요 제지사 직접 연결", en: "Direct access to premium paper mills across 3 continents", ja: "3大陸の製紙工場に直接アクセス", zh: "直连三大洲优质纸厂", vi: "Kết nối trực tiếp nhà máy giấy cao cấp tại 3 châu lục" }
+    title: { ko: "글로벌 소싱 파워", en: "Global Sourcing Power", ja: "Global Sourcing Power", zh: "Global Sourcing Power", vi: "Global Sourcing Power" },
+    body: { ko: "유럽·아시아·미주 주요 제지사 직접 연결", en: "Direct access to premium paper mills across 3 continents", ja: "Direct access to premium paper mills across 3 continents", zh: "Direct access to premium paper mills across 3 continents", vi: "Direct access to premium paper mills across 3 continents" }
   },
   {
-    title: { ko: "종이 전문성", en: "Paper Expertise at Scale", ja: "紙の専門性", zh: "纸张专业能力", vi: "Chuyên môn giấy quy mô lớn" },
-    body: { ko: "한국 최대 규모의 수입지 포트폴리오 보유", en: "Korea's most extensive imported paper portfolio", ja: "韓国最大級の輸入紙ポートフォリオ", zh: "韩国最大规模进口纸组合", vi: "Danh mục giấy nhập khẩu lớn nhất Hàn Quốc" }
+    title: { ko: "종이 전문성", en: "Paper Expertise at Scale", ja: "Paper Expertise at Scale", zh: "Paper Expertise at Scale", vi: "Paper Expertise at Scale" },
+    body: { ko: "한국 최대 규모의 수입지 포트폴리오 보유", en: "Korea's most extensive imported paper portfolio", ja: "Korea's most extensive imported paper portfolio", zh: "Korea's most extensive imported paper portfolio", vi: "Korea's most extensive imported paper portfolio" }
   },
   {
-    title: { ko: "엔드투엔드 ODM", en: "End-to-End ODM", ja: "エンドツーエンドODM", zh: "端到端ODM", vi: "ODM trọn gói" },
-    body: { ko: "소재 선정부터 완제품까지 일괄 처리", en: "From paper selection to finished product, all in one place", ja: "素材選定から完成品まで一括対応", zh: "从选纸到成品一站式完成", vi: "Từ chọn giấy đến thành phẩm tại một nơi" }
+    title: { ko: "엔드투엔드 ODM", en: "End-to-End ODM", ja: "End-to-End ODM", zh: "End-to-End ODM", vi: "End-to-End ODM" },
+    body: { ko: "소재 선정부터 완제품까지 일괄 처리", en: "From paper selection to finished product, all in one place", ja: "From paper selection to finished product, all in one place", zh: "From paper selection to finished product, all in one place", vi: "From paper selection to finished product, all in one place" }
   },
   {
-    title: { ko: "지속 가능성", en: "Sustainability Ready", ja: "サステナビリティ対応", zh: "可持续准备", vi: "Sẵn sàng bền vững" },
-    body: { ko: "FSC 인증 및 친환경 용지 옵션 제공", en: "FSC-certified and eco-friendly paper options available", ja: "FSC認証や環境配慮紙に対応", zh: "提供FSC及环保纸选项", vi: "Có các lựa chọn giấy FSC và thân thiện môi trường" }
+    title: { ko: "지속 가능성", en: "Sustainability Ready", ja: "Sustainability Ready", zh: "Sustainability Ready", vi: "Sustainability Ready" },
+    body: { ko: "FSC 인증 및 친환경 용지 옵션 제공", en: "FSC-certified and eco-friendly paper options available", ja: "FSC-certified and eco-friendly paper options available", zh: "FSC-certified and eco-friendly paper options available", vi: "FSC-certified and eco-friendly paper options available" }
   },
   {
-    title: { ko: "수출 가능 소재", en: "Export-Eligible Materials", ja: "輸出対応素材", zh: "可出口材料", vi: "Vật liệu đủ điều kiện xuất khẩu" },
-    body: { ko: "자체 보유 수출용 용지로 글로벌 납품 가능", en: "Proprietary paper available for international orders", ja: "自社保有の輸出向け用紙で対応", zh: "自有出口级纸张支持全球交付", vi: "Giấy độc quyền sẵn sàng cho đơn hàng quốc tế" }
+    title: { ko: "수출 가능 소재", en: "Export-Eligible Materials", ja: "Export-Eligible Materials", zh: "Export-Eligible Materials", vi: "Export-Eligible Materials" },
+    body: { ko: "자체 보유 수출용 용지로 글로벌 납품 가능", en: "Proprietary paper available for international orders", ja: "Proprietary paper available for international orders", zh: "Proprietary paper available for international orders", vi: "Proprietary paper available for international orders" }
   }
 ];
 
@@ -51,88 +51,56 @@ const projects = [
     category: { ko: "쇼핑백", en: "Shopping Bag", ja: "Shopping Bag", zh: "Shopping Bag", vi: "Shopping Bag" },
     badge: "Packaging",
     description: {
-      ko: "브랜드의 세계관을 종이 한 장에 — 컬러, 질감, 구조까지 브랜드 아이덴티티를 온전히 담아낸 팝업·시딩용 쇼핑백 프로젝트",
-      en: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use.",
-      ja: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use.",
-      zh: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use.",
-      vi: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use."
+      ko: "브랜드의 세계관을 종이 한 장에 담아낸 팝업·시딩용 쇼핑백 프로젝트",
+      en: "Brand identity in every fold for pop-up and seeding use.",
+      ja: "Brand identity in every fold for pop-up and seeding use.",
+      zh: "Brand identity in every fold for pop-up and seeding use.",
+      vi: "Brand identity in every fold for pop-up and seeding use."
     },
-    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-main.jpg",
-    gallery: [
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-1.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-2.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-3.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-4.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-5.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-6.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-7.jpg"
-    ]
+    image: "/images/project1-main.jpg",
+    gallery: ["/images/project1-1.jpg", "/images/project1-2.jpg", "/images/project1-3.jpg", "/images/project1-4.jpg", "/images/project1-5.jpg", "/images/project1-6.jpg", "/images/project1-7.jpg"]
   },
   {
     client: "Ttanjee Group",
     category: { ko: "노트", en: "Notebook", ja: "Notebook", zh: "Notebook", vi: "Notebook" },
     badge: "Stationery",
     description: {
-      ko: "실용성과 브랜드 정체성의 균형 — 만년필 사용자까지 세심하게 고려한 용지 선택과 컬러 배색, 후가공이 돋보이는 노트 굿즈 3종",
-      en: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing.",
-      ja: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing.",
-      zh: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing.",
-      vi: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing."
+      ko: "실용성과 브랜드 정체성의 균형을 담은 노트 굿즈",
+      en: "Function meets identity through careful paper and finish choices.",
+      ja: "Function meets identity through careful paper and finish choices.",
+      zh: "Function meets identity through careful paper and finish choices.",
+      vi: "Function meets identity through careful paper and finish choices."
     },
-    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-main.jpg",
-    gallery: [
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-1.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-2.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-3.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-4.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-5.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-6.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-7.jpg"
-    ]
+    image: "/images/project2-main.jpg",
+    gallery: ["/images/project2-1.jpg", "/images/project2-2.jpg", "/images/project2-3.jpg", "/images/project2-4.jpg", "/images/project2-5.jpg", "/images/project2-6.jpg", "/images/project2-7.jpg"]
   },
   {
     client: "Korea Environmental Industry Association",
     category: { ko: "다이어리·포켓수첩", en: "Diary & Pocket Notebook", ja: "Diary & Pocket Notebook", zh: "Diary & Pocket Notebook", vi: "Diary & Pocket Notebook" },
     badge: "Corporate Gift",
     description: {
-      ko: "연초 파트너사 선물용으로 기획된 다이어리·포켓수첩 — 깔끔한 디자인과 실용적인 구성으로 일상 속에서 자연스럽게 활용할 수 있도록 제작",
-      en: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use.",
-      ja: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use.",
-      zh: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use.",
-      vi: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use."
+      ko: "연초 파트너사 선물용 다이어리·포켓수첩 프로젝트",
+      en: "Clean and practical set designed for everyday use.",
+      ja: "Clean and practical set designed for everyday use.",
+      zh: "Clean and practical set designed for everyday use.",
+      vi: "Clean and practical set designed for everyday use."
     },
-    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-main.jpg",
-    gallery: [
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-1.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-2.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-3.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-4.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-5.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-6.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-7.jpg"
-    ]
+    image: "/images/project3-main.jpg",
+    gallery: ["/images/project3-1.jpg", "/images/project3-2.jpg", "/images/project3-3.jpg", "/images/project3-4.jpg", "/images/project3-5.jpg", "/images/project3-6.jpg", "/images/project3-7.jpg"]
   },
   {
     client: "Arte Museum",
     category: { ko: "스케치북·미니노트", en: "Sketchbook & Mini Notebook", ja: "Sketchbook & Mini Notebook", zh: "Sketchbook & Mini Notebook", vi: "Sketchbook & Mini Notebook" },
     badge: "Museum Goods",
     description: {
-      ko: "전시 공간의 색감과 질감을 그대로 담아낸 뮤지엄 에디션 — 방문객이 일상 속에서도 전시의 여운을 오래도록 간직할 수 있도록 설계된 굿즈 4종",
-      en: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives.",
-      ja: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives.",
-      zh: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives.",
-      vi: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives."
+      ko: "전시의 분위기를 담은 뮤지엄 에디션 굿즈",
+      en: "Museum edition goods designed for daily emotional recall.",
+      ja: "Museum edition goods designed for daily emotional recall.",
+      zh: "Museum edition goods designed for daily emotional recall.",
+      vi: "Museum edition goods designed for daily emotional recall."
     },
-    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-main.jpg",
-    gallery: [
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-1.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-2.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-3.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-4.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-5.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-6.jpg",
-      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-7.jpg"
-    ]
+    image: "/images/project4-main.jpg",
+    gallery: ["/images/project4-1.jpg", "/images/project4-2.jpg", "/images/project4-3.jpg", "/images/project4-4.jpg", "/images/project4-5.jpg", "/images/project4-6.jpg", "/images/project4-7.jpg"]
   }
 ];
 
@@ -154,11 +122,11 @@ export default function Home() {
   const paperText = useMemo(
     () => ({
       body: {
-        ko: "레이저·잉크젯 인쇄 모두 호환되는 프리미엄 펄 광택 용지입니다. 인쇄물에 은은한 광택감을 더해 럭셔리 문구류, 브랜드 홍보물, 패키징 인서트, 고급 봉투 등에 적합합니다. 국제 수출이 가능한 자체 보유 용지입니다.",
-        en: "A premium pearl-finish paper compatible with both laser and inkjet printing. Tiramisu brings a distinctive shimmer to any printed piece — ideal for luxury stationery, brand collateral, packaging inserts, and premium envelopes. Available for international export.",
-        ja: "A premium pearl-finish paper compatible with both laser and inkjet printing. Tiramisu brings a distinctive shimmer to any printed piece — ideal for luxury stationery, brand collateral, packaging inserts, and premium envelopes. Available for international export.",
-        zh: "A premium pearl-finish paper compatible with both laser and inkjet printing. Tiramisu brings a distinctive shimmer to any printed piece — ideal for luxury stationery, brand collateral, packaging inserts, and premium envelopes. Available for international export.",
-        vi: "A premium pearl-finish paper compatible with both laser and inkjet printing. Tiramisu brings a distinctive shimmer to any printed piece — ideal for luxury stationery, brand collateral, packaging inserts, and premium envelopes. Available for international export."
+        ko: "레이저·잉크젯 인쇄 모두 호환되는 프리미엄 펄 광택 용지입니다. 국제 수출이 가능한 자체 보유 용지입니다.",
+        en: "A premium pearl-finish paper compatible with both laser and inkjet printing. Available for international export.",
+        ja: "A premium pearl-finish paper compatible with both laser and inkjet printing. Available for international export.",
+        zh: "A premium pearl-finish paper compatible with both laser and inkjet printing. Available for international export.",
+        vi: "A premium pearl-finish paper compatible with both laser and inkjet printing. Available for international export."
       },
       badges: [
         { ko: "펄 광택 마감", en: "Pearl Finish", ja: "Pearl Finish", zh: "Pearl Finish", vi: "Pearl Finish" },
@@ -191,7 +159,6 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       });
-
       if (!response.ok) throw new Error("Failed");
       setSubmitState("success");
       e.currentTarget.reset();
@@ -204,12 +171,12 @@ export default function Home() {
 
   return (
     <main>
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-gray-100 shadow-nav">
-        <div className="mx-auto max-w-7xl px-4 py-4 md:px-6 flex items-center justify-between gap-4">
+      <header className="sticky top-0 z-40 border-b border-gray-100 bg-white/95 backdrop-blur shadow-nav">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 md:px-6">
           <a href="#home" className="flex items-center gap-3">
-            <img src="file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/ds_logo.jpg" alt="DS Retail logo" className="h-10 w-auto" />
+            <img src="/images/ds_logo.jpg" alt="DS Retail logo" className="h-10 w-auto" />
           </a>
-          <nav className="hidden md:flex items-center gap-6 text-sm text-gray-700">
+          <nav className="hidden items-center gap-6 text-sm text-gray-700 md:flex">
             {navItems.map((item) => (
               <a key={item.key} href={item.href} className="hover:text-black">
                 {t(lang, content.nav[item.key])}
@@ -228,7 +195,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="home" className="paper-texture bg-[url('https://images.unsplash.com/photo-1607082349566-187342175e2f?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center">
+      <section id="home" className="paper-texture bg-cover bg-center bg-[url('/images/project1-main.jpg')]">
         <div className="bg-black/55">
           <div className="mx-auto max-w-7xl px-4 py-28 text-white md:px-6 md:py-40">
             <h1 className="max-w-3xl text-4xl font-semibold leading-tight md:text-6xl">{t(lang, content.hero.title)}</h1>
@@ -245,9 +212,9 @@ export default function Home() {
         <h2 className="text-3xl font-semibold">{t(lang, content.about.heading)}</h2>
         <div className="mt-8 grid gap-10 lg:grid-cols-5">
           <p className="lg:col-span-3 leading-8 text-gray-700">{t(lang, content.about.body)}</p>
-          <div className="lg:col-span-2 grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
             {stats.map((s) => (
-              <div key={s.label} className="rounded-xl bg-white p-5 border border-gray-100">
+              <div key={s.label} className="rounded-xl border border-gray-100 bg-white p-5">
                 <p className="text-2xl font-bold">{s.value}</p>
                 <p className="mt-1 text-sm text-gray-500">{s.label}</p>
               </div>
@@ -274,7 +241,7 @@ export default function Home() {
           <p className="mt-5 max-w-3xl leading-7 text-gray-700">{t(lang, paperText.body)}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             {paperText.badges.map((badge) => (
-              <span key={badge.en} className="rounded-full bg-white px-4 py-2 text-sm border border-gray-200">{t(lang, badge)}</span>
+              <span key={badge.en} className="rounded-full border border-gray-200 bg-white px-4 py-2 text-sm">{t(lang, badge)}</span>
             ))}
           </div>
           <a href="#contact" className="mt-8 inline-block rounded-md bg-gray-900 px-6 py-3 text-sm font-semibold text-white">{t(lang, paperText.cta)}</a>
@@ -349,8 +316,8 @@ export default function Home() {
           <button type="submit" disabled={isSubmitting} className="rounded-md bg-gray-900 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 md:w-fit">
             {isSubmitting ? t(lang, content.contact.form.sending) : t(lang, content.contact.form.submit)}
           </button>
-          {submitState === "success" && <p className="md:col-span-2 text-sm text-green-700">{t(lang, content.contact.form.success)}</p>}
-          {submitState === "error" && <p className="md:col-span-2 text-sm text-red-600">{t(lang, content.contact.form.error)}</p>}
+          {submitState === "success" && <p className="text-sm text-green-700 md:col-span-2">{t(lang, content.contact.form.success)}</p>}
+          {submitState === "error" && <p className="text-sm text-red-600 md:col-span-2">{t(lang, content.contact.form.error)}</p>}
         </form>
       </section>
 
@@ -373,7 +340,7 @@ export default function Home() {
       <footer className="border-t border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
           <div className="flex flex-col gap-3">
-            <img src="file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/ds_logo.jpg" alt="DS Retail logo" className="h-9 w-auto" />
+            <img src="/images/ds_logo.jpg" alt="DS Retail logo" className="h-9 w-auto" />
             <p className="text-sm text-gray-600">{t(lang, content.common.footerTagline)}</p>
             <div className="flex flex-wrap gap-4 text-sm">
               {navItems.map((item) => (

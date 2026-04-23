@@ -57,13 +57,15 @@ const projects = [
       zh: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use.",
       vi: "Brand identity in every fold — color, texture, and structure all crafted to reflect NE:AR's aesthetic for pop-up and seeding use."
     },
-    image: "https://postfiles.pstatic.net/MjAyNTA2MjhfOTcg/MDAxNzUxMTExODIzMDQy.BCmUEz-xjw3glXLMn4_ouRJTCKCpA5hxfViu87odnq0g.tzf8zdCw0nrFzc_DieTyG9ptfxo6qbNHzsLusgaCIQYg.JPEG/WOO00979.jpg?type=w966",
+    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-main.jpg",
     gallery: [
-      "https://postfiles.pstatic.net/MjAyNTA2MThfMTc2/MDAxNzUwMjAyNDMzNTgy.Te-dtSkQtMQBxNg1ykFO3Okyv9XYQPfrpYthZ7386b0g.uqz1DoGOk5UyCszkCJXenwEO0Yu4Ow9SZ_aPPCp_wR0g.JPEG/SE-aba8b656-736f-43ed-884b-e4650526cee9.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MThfMjc1/MDAxNzUwMjAyNDM1NDQw.xwXZlxATsJ0WXLvkhWblxsekqOZmMncicyVU0KgLiF8g.9mTTtGufcNvypMRYdqbXYyHhWvfbu7wTHQA0A4GnB1kg.JPEG/SE-162f0774-6ab9-4179-a3b6-62d31bfe416e.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MThfMTk3/MDAxNzUwMjAyNjkyNTA0.nU2QNlFeOvnDSgOX4XhGHGW-jtF3zU_adfjx6VVPJYsg.tu5aMViuvoX0hh7pa7oovtgRbjpZV1gqc9RJofcsOqsg.JPEG/SE-650c888d-670f-4068-ae03-7b424858a426.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MThfMTk3/MDAxNzUwMjI2Mjg0NzM2.VwLbT-4zzJuHZXjI-LhZhD045ujFLXf8rCFRRhvNbrUg.8JNF67GanfjIbQvizpg5snLnk7HHCiZt49LAZnz3oLEg.JPEG/WOO00943.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MjhfOTcg/MDAxNzUxMTExODIzMDQy.BCmUEz-xjw3glXLMn4_ouRJTCKCpA5hxfViu87odnq0g.tzf8zdCw0nrFzc_DieTyG9ptfxo6qbNHzsLusgaCIQYg.JPEG/WOO00979.jpg?type=w966"
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-1.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-2.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-3.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-4.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-5.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-6.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project1-7.jpg"
     ]
   },
   {
@@ -77,13 +79,15 @@ const projects = [
       zh: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing.",
       vi: "Function meets identity — 3 notebook goods crafted with fountain pen users in mind, refined through careful paper selection, color, and finishing."
     },
-    image: "https://postfiles.pstatic.net/MjAyNTA2MTlfMTY4/MDAxNzUwMjk5NTMzNzc4.-9pkdOKoKdMeeMhW1wtnbFAmafLn-zKoMwYFFMdvresg.f2ZIYZNqIOxIjXdvzuD5S_T64YUmGGUJzq-07wSmbkAg.JPEG/WOO01468.jpg?type=w966",
+    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-main.jpg",
     gallery: [
-      "https://postfiles.pstatic.net/MjAyNTA2MTlfMTYx/MDAxNzUwMzAzOTc5OTQz.zygk4ZDqRikg_4wbRc_pyAbU3IHOGIPnR4WqfnMu8v0g.x4TqQVvNjq5_WjJeEE8T4qEIEILwHeKYT9LbBJVOhzQg.JPEG/WOO00847.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MTlfODMg/MDAxNzUwMzA0NzcyODc1.15ZUTKZ5b71JkP31WdgNGZfwyKzh1OzBmZMQGk-E4UQg.rHHkRgUZD0WKun_frLGyre-hnMFC0_05xbBk6KXTl0Qg.JPEG/SE-6aed009e-9b1c-41f9-ad10-c94572aa7e88.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MTlfMTkz/MDAxNzUwMzA1NTE4OTMz.-AaI0I2MqaKM6NP22zSA9kTMF0mSVb9b23F_Q6ITezIg.zoUHa3FEUHTY6gbWzyf9wG0vNCjHlS8xkYKnsqvp6D4g.JPEG/WOO00870.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MTlfMTc5/MDAxNzUwMzIxMDkyODky.v36XrYyvUr9LZ0RodA2Y7w6cKsQhwakjfMiAOdIj7msg.EIQNOeHTIcjFn-45wm0amHOZ-pHl16_xWYohi99YstUg.JPEG/WOO01445.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MTlfMTY4/MDAxNzUwMjk5NTMzNzc4.-9pkdOKoKdMeeMhW1wtnbFAmafLn-zKoMwYFFMdvresg.f2ZIYZNqIOxIjXdvzuD5S_T64YUmGGUJzq-07wSmbkAg.JPEG/WOO01468.jpg?type=w966"
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-1.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-2.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-3.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-4.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-5.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-6.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project2-7.jpg"
     ]
   },
   {
@@ -97,13 +101,15 @@ const projects = [
       zh: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use.",
       vi: "New year corporate gift set designed for partner distribution — clean design and practical layout crafted for everyday use."
     },
-    image: "https://postfiles.pstatic.net/MjAyNTA2MjNfMTU4/MDAxNzUwNjY1MzM0MDcx.e7A3Xlj4ym0uusEgJiQE6aIH6MR_RaB9qU84xc87m1Yg.OaADhO6qoMs-IC77MVi0dratnCWNGSHfxlS3xirdhLQg.JPEG/000034.jpg?type=w966",
+    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-main.jpg",
     gallery: [
-      "https://postfiles.pstatic.net/MjAyNTA2MjRfMTI2/MDAxNzUwNzQ1MTgwMjA4.2skrGA5kAUhnVhtg3DhC_MZ3s-H_Vlnm2k1cT4JyPhUg.TyJNsBfbOGKL5FAfOgbZjQkFPhMNURbtoQI8Bp5Q87Qg.JPEG/WOO00501.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjRfNDIg/MDAxNzUwNzQ1MTA4Mjgw.4X1ScoLunD75EiLQamcBP_I2t5nx4wyocqulNBfTaJwg.O45u6cxnTgoj_vZUfratYEhviocCtR6wY7IG7HIk8Skg.JPEG/WOO00456.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjRfNTAg/MDAxNzUwNzQ1OTI3Mjgx.OOO-FmG34I9MjpiNn2reIESyJanY-t5Oejs23B0dlPQg.G4lyuXq2VBVnPRuDEYNl13uhOvoQY5fHuuEL0_iRSiYg.JPEG/WOO00512.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MjVfNjEg/MDAxNzUwODMzMTE1Nzkx.GOpNaVIt7h-nrs2qvTBKMh-JDSO-DncHApj9-mkWjUwg.QlTNRhgNQHwsL6Xa64P4_e4UJSpAS6NljVdYXdQuVYkg.JPEG/WOO00529.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjNfMTU4/MDAxNzUwNjY1MzM0MDcx.e7A3Xlj4ym0uusEgJiQE6aIH6MR_RaB9qU84xc87m1Yg.OaADhO6qoMs-IC77MVi0dratnCWNGSHfxlS3xirdhLQg.JPEG/000034.jpg?type=w966"
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-1.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-2.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-3.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-4.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-5.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-6.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project3-7.jpg"
     ]
   },
   {
@@ -117,13 +123,15 @@ const projects = [
       zh: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives.",
       vi: "Museum edition goods that capture the exhibition's atmosphere — designed so visitors can carry the emotion of the space into their everyday lives."
     },
-    image: "https://postfiles.pstatic.net/MjAyNTA2MjZfMTI1/MDAxNzUwODk3MjAzNDc0.P6UQHamh-LlYEJAoWHwuMtisCEU7fGrbqI74nbz421wg._YBRfQ0YIRjxJRe0xMYyVp2LTj36avpzgnq30ValSOgg.JPEG/WOO01104.jpg?type=w966",
+    image: "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-main.jpg",
     gallery: [
-      "https://postfiles.pstatic.net/MjAyNTA2MjZfMTgw/MDAxNzUwODk3MjAzMjMx.Ulxb3g1MNebliJOtbdX4979zlwUHfs2YdqVSLLPJHIAg.DpxWmrfYRciti40bQZZT2J6kNaHHQTRAINVDCksC0Eg.JPEG/WOO01147.jpg?type=w966",
-      "https://postfiles.pstatic.net/MjAyNTA2MjZfMjEy/MDAxNzUwOTAyNzg5ODIx.DUbDLO9T4Wi4nrYkeQ6whXgLiT2aMYUKIgYP9h8rP5wg.Zivp5qvgFaTXM2dp4_Nj8nSA1UzYDucnRpM-EhWUg.JPEG/WOO00136.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjZfMTc0/MDAxNzUwOTAyOTAwMDM0.07W95eM9qDgUQq3ZY4nLhhqHZGIeLRGmQ--R7Dn0_Ig.UEW1MLjmpF16hv2Gf9NWX7l4tPDoHIzyLTil7Z8WjAwg.JPEG/WOO00191.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjZfODgg/MDAxNzUwOTAyOTAwMzQy.__8S7Q7HYcgZEEP4iqEQdUrr-AABwNAYgCgyqJXGTEgg.7gRX7UCYHo9-EAmI9y_NZObxmMB-HyuGMI7vIvL_SV8g.JPEG/WOO00180.jpg?type=w466",
-      "https://postfiles.pstatic.net/MjAyNTA2MjZfMTI1/MDAxNzUwODk3MjAzNDc0.P6UQHamh-LlYEJAoWHwuMtisCEU7fGrbqI74nbz421wg._YBRfQ0YIRjxJRe0xMYyVp2LTj36avpzgnq30ValSOgg.JPEG/WOO01104.jpg?type=w966"
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-1.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-2.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-3.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-4.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-5.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-6.jpg",
+      "file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/project4-7.jpg"
     ]
   }
 ];
@@ -199,7 +207,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-gray-100 shadow-nav">
         <div className="mx-auto max-w-7xl px-4 py-4 md:px-6 flex items-center justify-between gap-4">
           <a href="#home" className="flex items-center gap-3">
-            <img src="https://blogpfthumb-phinf.pstatic.net/MjAyNTA3MDlfOTUg/MDAxNzUyMDE3ODQxMjg1.KwNdY4E-7Og9zbV6FIHeXgIDNESWl4jSSdXAGnoMMLQg.pd1FT9KXgLR5ftfFFMiCAr9F0qz3TzyT8Yx7SLjo-nog.JPEG/ds_logo.jpg/ds_logo.jpg?type=w161" alt="DS Retail logo" className="h-10 w-auto" />
+            <img src="file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/ds_logo.jpg" alt="DS Retail logo" className="h-10 w-auto" />
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm text-gray-700">
             {navItems.map((item) => (
@@ -365,7 +373,7 @@ export default function Home() {
       <footer className="border-t border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
           <div className="flex flex-col gap-3">
-            <img src="https://blogpfthumb-phinf.pstatic.net/MjAyNTA3MDlfOTUg/MDAxNzUyMDE3ODQxMjg1.KwNdY4E-7Og9zbV6FIHeXgIDNESWl4jSSdXAGnoMMLQg.pd1FT9KXgLR5ftfFFMiCAr9F0qz3TzyT8Yx7SLjo-nog.JPEG/ds_logo.jpg/ds_logo.jpg?type=w161" alt="DS Retail logo" className="h-9 w-auto" />
+            <img src="file:///C:/Users/USER/Desktop/%EC%83%88%20%ED%8F%B4%EB%8D%94%20(4)/ds_logo.jpg" alt="DS Retail logo" className="h-9 w-auto" />
             <p className="text-sm text-gray-600">{t(lang, content.common.footerTagline)}</p>
             <div className="flex flex-wrap gap-4 text-sm">
               {navItems.map((item) => (

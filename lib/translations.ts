@@ -3,6 +3,7 @@ export type Lang = "ko" | "en" | "ja" | "zh" | "vi";
 type LocaleText = Record<Lang, string>;
 
 export const LANG_OPTIONS: { key: Lang; label: string }[] = [
+  { key: "ko", label: "KO" },
   { key: "en", label: "EN" },
   { key: "ja", label: "JP" },
   { key: "zh", label: "ZH" },

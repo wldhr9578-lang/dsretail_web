@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission Successful | DS Retail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            colors: {
+              'ds-charcoal': '#1a1a1a',
+              'ds-paper': '#fdfbf7',
+              'ds-gray': '#8e8e8e',
+              'ds-accent': '#c5a47e',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #fdfbf7;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #c5a47e;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #1a1a1a;
+      }
+    </style>
+  </head>
+  <body class="bg-ds-paper text-ds-charcoal antialiased selection:bg-ds-accent selection:text-white min-h-screen flex items-center justify-center">
+    <div class="container mx-auto px-6 text-center max-w-2xl">
+      <div class="mb-8">
+        <svg class="w-20 h-20 mx-auto text-ds-accent mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <h1 class="font-serif text-4xl md:text-5xl mb-4 text-ds-charcoal">Submission Successful!</h1>
+        <p class="text-lg text-ds-gray font-light mb-8">
+          Thank you for contacting DS RETAIL. Our global team will respond within 24 business hours.
+        </p>
+        <a 
+          href="/" 
+          class="inline-block px-8 py-4 bg-ds-charcoal text-white hover:bg-ds-accent transition-colors duration-300 font-medium tracking-wide"
+        >
+          Return to Home
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
